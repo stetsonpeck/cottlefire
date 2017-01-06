@@ -1,0 +1,132 @@
+    @font-face {
+        font-family: square;
+        src: url(anita-semi-square/anitaSemiSquare.ttf);
+    }
+    
+    .active {
+        margin-right: 10px;
+        background-color: #FF4A14;
+    }
+    
+    .navbar-default {
+        font-family: square;
+        background-color: #FF4A14;
+    }
+    
+    .mainBody {
+        height: 0px;
+        position: absolute;
+    }
+    
+    .mainImg {
+        width: 100%;
+        height: 250px
+    }
+    
+    .mainBody1 {
+        height: 0px;
+        position: relative;
+    }
+    
+    .cottleImg1 {
+        width: 100%;
+        position: static;
+    }
+    
+    .cottleImg {
+        height: 300px;
+        width: 92%;
+        position: fixed;
+        opacity: .2;
+    }
+    
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        color: #00005E;
+        font-family: square;
+        text-shadow: 0 0 5px #FF4A14, 0 0 10px #FF4A14, 0 0 20px #FF4A14;
+    }
+    
+    h3 {
+        position: absolute;
+        font-size: 60px;
+        text-align: center;
+        color: #FF4A14;
+        font-family: square;
+        margin-left: 30px;
+        text-shadow: 0 0 5px #00005E, 0 0 10px #00005E, 0 0 20px #00005E;
+    }
+    
+    .foot {
+        height: 50px;
+        background-color: #FF4A14;
+        position: static;
+    }
+    
+    p {
+        font-family: square;
+        color: #00005E;
+    }
+    
+    form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* To see the outline of the form */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    
+    form div + div {
+        margin-top: 1em;
+    }
+    
+    label {
+        /* To make sure that all labels have the same size and are properly aligned */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+    
+    input,
+    textarea {
+        /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+        font: 1em sans-serif;
+        /* To give the same size to all text field */
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        /* To harmonize the look & feel of text field border */
+        border: 1px solid #999;
+    }
+    
+    input:focus,
+    textarea:focus {
+        /* To give a little highlight on active elements */
+        border-color: #000;
+    }
+    
+    textarea {
+        /* To properly align multiline text fields with their labels */
+        vertical-align: top;
+        /* To give enough room to type some text */
+        height: 5em;
+        /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+        resize: vertical;
+    }
+    
+    .button {
+        /* To position the buttons to the same position of the text fields */
+        padding-left: 90px;
+        /* same size as the label elements */
+    }
+    
+    button {
+        /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+        margin-left: .5em;
+    }
