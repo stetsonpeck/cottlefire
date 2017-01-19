@@ -3,7 +3,7 @@ var app = express();
 var expressJwt = require('express-jwt');
 
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 var jwt = require('jsonwebtoken');
 var morgan = require('morgan');
 
@@ -11,7 +11,7 @@ var path = require('path');
 var port = process.env.PORT || 8000;
 var config = require('./config');
 
-mongoose.connect(config.database);
+//mongoose.connect(config.database);
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
