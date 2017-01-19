@@ -27,7 +27,6 @@ app.use(express.static(path.join(__dirname)));
 //app.use('/auth', require('./src/routes/auth-routes'));
 
 
-
 app.listen(port, function () {
     console.log("port " + port);
 });

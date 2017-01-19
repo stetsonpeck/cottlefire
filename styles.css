@@ -3,14 +3,34 @@
         src: url(anita-semi-square/anitaSemiSquare.ttf);
     }
     
+    @font-face {
+        font-family: orbit;
+        src: url(orbitron/Orbitron-Medium.ttf);
+    }
+    
     .active {
-        margin-right: 10px;
-        background-color: #FF4A14;
+        border-right: grey 2px solid;
+        border-left: grey 2px solid;
+        display: inline;
+        font-family: orbit;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: 0px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .container-fluid {
+        background-color: navy;
+        padding-bottom: 5px;
+        padding-right: 150px;
+        padding-left: 150px;
     }
     
     .navbar-default {
-        font-family: square;
-        background-color: #FF4A14;
+        font-size: 25px;
+        margin: 20px;
+        margin-top: 0;
     }
     
     .mainBody {
@@ -31,6 +51,7 @@
     .cottleImg1 {
         width: 100%;
         position: static;
+        margin: 5px;
     }
     
     .cottleImg {
@@ -49,24 +70,32 @@
     }
     
     h3 {
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
         position: absolute;
         font-size: 60px;
         text-align: center;
         color: #FF4A14;
         font-family: square;
-        margin-left: 30px;
         text-shadow: 0 0 5px #00005E, 0 0 10px #00005E, 0 0 20px #00005E;
     }
     
     .foot {
+        font-size: 45px;
+        text-align: center;
+        font-family: orbit;
         height: 50px;
         background-color: #FF4A14;
         position: static;
     }
     
     p {
-        font-family: square;
+        font: bold 60px navy "Lucida Sans Unicode", "Lucida Grande", sans-serif;
         color: #00005E;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 30px;
     }
     
     form {
@@ -79,7 +108,7 @@
         border-radius: 1em;
     }
     
-    form div + div {
+    form div+div {
         margin-top: 1em;
     }
     
