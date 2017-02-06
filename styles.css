@@ -8,6 +8,10 @@
         src: url(orbitron/Orbitron-Medium.ttf);
     }
     
+    a {
+        border: 1px solid #FF4A14;
+    }
+    
     .mainBody {
         height: 0px;
         position: absolute;
@@ -25,8 +29,9 @@
     
     .cottleImg1 {
         width: 100%;
-        position: static;
-        margin: 5px;
+        margin-left: 350px;
+        margin-top: 10px;
+        position: absolute;
     }
     
     .cottleImg {
@@ -45,12 +50,10 @@
     }
     
     h3 {
-        width: 100%;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 130px;
+        margin-right: 40px;
         position: absolute;
         font-size: 60px;
-        text-align: center;
         color: #FF4A14;
         font-family: square;
         text-shadow: 0 0 5px #00005E, 0 0 10px #00005E, 0 0 20px #00005E;
@@ -62,13 +65,15 @@
         font-family: orbit;
         height: 50px;
         background-color: #FF4A14;
-        position: static;
+        margin-top: 75px;
     }
     
     p {
         font-size: 20px;
         text-align: center;
         height: 100px;
+        margin-left: 75px;
+        margin-right: 75px;
     }
     
     form {
