@@ -8,8 +8,21 @@
         src: url(orbitron/Orbitron-Medium.ttf);
     }
     
+    .navfoot {
+        margin-top: 50px;
+    }
+    
+    .navbar-brand {
+        border: 1px solid #5E688D
+    }
+    
+    .navbar {
+        border: 3px solid #5E688D;
+    }
+    
     a {
         border: 1px solid #FF4A14;
+        font-family: square;
     }
     
     .mainBody {
@@ -69,6 +82,7 @@
     }
     
     p {
+        color: #0B3F7E;
         font-size: 20px;
         text-align: center;
         height: 100px;
